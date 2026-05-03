@@ -1,0 +1,128 @@
+/* for the navbar*/
+
+nav h1 {
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 20px 60px;
+}
+
+nav {
+    background-color: pink;
+    padding: 10px 40px; 
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0; 
+}
+
+/* for the unordered list inside nav*/ 
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    margin: 0;
+    padding: 0;
+}
+
+/* clickable text */ 
+nav a { 
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 1.5px; 
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+section {
+    min-height: 100vh; 
+    padding: 60px; 
+    scroll-margin-top: 100px;
+}
+
+section:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+/* eliminates abrupt scrolling */
+html { 
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fffdf7;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: 
+        repeating-linear-gradient(
+            to bottom,
+            transparent,
+            transparent 28px,
+            #dcdcdc 29px
+        );
+}
+
+.officers-grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 60px;
+}
+
+
+.letter { 
+    font-size: 20px;
+}
+
+.calendar-container {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.logo-container img {
+    height: 50px;
+    width: auto;
+}
+
+.contact-left {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-right {
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.contact-center {
+    text-align: center;
+}
+
+.contact-box{ 
+    background: #fff;
+    display: flex;
+}
+
+.left-box {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.right-box {
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+}
