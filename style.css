@@ -100,11 +100,13 @@ body {
 .contact-left {
     display: flex;
     gap: 40px;
+    width: 40%;
 }
 
 .contact-right {
     border: 2px solid red;
     padding: 20px;
+    width: 40%;
 }
 
 .contact-center {
