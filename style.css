@@ -97,34 +97,31 @@ body {
     width: auto;
 }
 
-.contact-left {
+.contact-info {
     display: flex;
     gap: 40px;
     width: 40%;
 }
 
-.contact-right {
-    border: 2px solid red;
-    padding: 20px;
-    width: 40%;
+.contact-layout {
+    display: flex; 
 }
 
 .contact-center {
     text-align: center;
 }
 
-.contact-box{ 
+.contact-form{ 
     background: #fff;
     display: flex;
+    flex-direction: column;
 }
 
-.left-box {
-    flex-basis: 60%;
-    padding: 40px 60px;
+.contact-links { 
+    
 }
 
-.right-box {
-    flex-basis: 40%;
-    padding: 40px;
-    background: #1c00b5;
+.input-group {
+    display: flex;
+    flex-direction: column; 
 }
