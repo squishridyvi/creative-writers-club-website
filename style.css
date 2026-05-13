@@ -98,13 +98,14 @@ body {
 }
 
 .contact-info {
-    display: flex;
     gap: 40px;
     width: 40%;
 }
 
 .contact-layout {
-    display: flex; 
+    /* gap: 500px; */
+    max-width: 1100px;
+    /* margin: auto; */
 }
 
 .contact-center {
@@ -112,16 +113,20 @@ body {
 }
 
 .contact-form{ 
-    background: #fff;
     display: flex;
     flex-direction: column;
+    width: 45%
 }
 
 .contact-links { 
+    font-size: 40px;
+    color: #555;
     
 }
 
 .input-group {
     display: flex;
     flex-direction: column; 
+
 }
+
