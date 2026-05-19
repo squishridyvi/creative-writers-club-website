@@ -4,7 +4,7 @@ nav h1 {
     font-size: 28px;
     font-family: 'Playfair Display', serif;
     margin: 0;
-    padding: 20px 60px;
+    padding: 0;
 }
 
 nav {
@@ -55,7 +55,7 @@ html {
 }
 
 body {
-    background-color: #fffdf7;
+    background-color: #f7f2f4;
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
@@ -65,7 +65,7 @@ body {
             to bottom,
             transparent,
             transparent 28px,
-            #dcdcdc 29px
+            #f4c0d1 29px
         );
 }
 
@@ -73,6 +73,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     gap: 60px;
+}
+
+#home {
+    background-color: #fdf0f4;
+
 }
 
 
@@ -89,12 +94,13 @@ body {
 .logo-container {
     display: flex;
     align-items: center; 
-    gap: 10px;
+    gap: 14px;
 }
 
 .logo-container img {
     height: 50px;
     width: auto;
+    display: block; 
 }
 
 .contact-info {
